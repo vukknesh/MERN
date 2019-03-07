@@ -204,7 +204,7 @@ router.post(
 // @access Private
 
 router.post(
-  "/education/:edu_id",
+  "/education",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
     const { errors, isValid } = validateEducationInput(req.body);
