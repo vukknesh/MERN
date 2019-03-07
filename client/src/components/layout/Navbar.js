@@ -34,7 +34,7 @@ class Navbar extends Component {
               style={{ width: "25px", marginRight: "5px" }}
               className="rounded-circle"
             />
-            LOGOUT
+            LOGOUT AS {user.name}
           </a>
         </li>
       </ul>
